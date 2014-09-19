@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test name="Test1">
+    <classes>
+      <class name="PageObjectScript.TestPageObject"/>
+      <methods>
+      <include name="Lostpasswd"/>
+      </methods>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Test2">
+    <classes>
+      <class name="PageObjectScript.TestPageObject"/>
+      <methods>
+      <exclude name="Lostpasswd"/>
+      </methods>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
